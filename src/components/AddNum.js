@@ -11,7 +11,7 @@ function AddNum({onClick}) {
       }}/>
       <input type="input" value={size}
              onChange={(e) => {
-               git remote add origin https://github.com/ohdal/redux-test.git(Number(e.target.value))
+               setSize(Number(e.target.value))
              }}/>
     </div>
   )
